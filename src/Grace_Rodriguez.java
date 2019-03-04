@@ -91,7 +91,7 @@ public class Grace_Rodriguez {
             long elapsed_time_nsec = end_time - start_time;
             System.out.println("The password for hash value " + hashed_password +
                                 " is " + potential_password + ", it takes the program " +
-                                elapsed_time_nsec + " msec to recover this password.");
+                                elapsed_time_nsec + " nanoseconds to recover this password.");
 
             //System.out.println(input + " successfully matched on line: " + line_number);
         }
@@ -108,7 +108,7 @@ public class Grace_Rodriguez {
         //try-catch block
         try {
             //open the file
-            Scanner fileRead = new Scanner(new FileReader("passwords4.txt"));
+            Scanner fileRead = new Scanner(new FileReader("passwords.txt"));
 
             //loop through the whole file
             while (fileRead.hasNext())
