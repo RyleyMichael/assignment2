@@ -108,7 +108,7 @@ public class Grace_Rodriguez {
         //try-catch block
         try {
             //open the file
-            Scanner fileRead = new Scanner(new FileReader("passwords3.txt"));
+            Scanner fileRead = new Scanner(new FileReader("passwords4.txt"));
 
             //loop through the whole file
             while (fileRead.hasNext())
